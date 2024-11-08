@@ -38,7 +38,7 @@ export const myProjects = [
     subdesc:
       'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
     texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
+    logo: '/assets/projects/project-logo1.png',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
@@ -74,7 +74,7 @@ export const myProjects = [
     subdesc:
       'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
     texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
+    logo: '/assets/projects/project-logo2.png',
     logoStyle: {
       backgroundColor: '#1C1A43',
       border: '0.2px solid #252262',
@@ -110,7 +110,7 @@ export const myProjects = [
     subdesc:
       'Built with Next.js and Prisma, Budget Tracker offers tools for income tracking, expense management, and customized category creation, delivering an intuitive and personalized experience.',
     texture: '/textures/project/budgettracker.mp4',
-    logo: '/assets/budgettracker-logo.png',
+    logo: '/assets/projects/budget-tracker-logo.png',
     logoStyle: {
       backgroundColor: '#1E2D3D',
       border: '0.2px solid #25354D',
