@@ -2,6 +2,7 @@ import About from './sections/About.jsx';
 import Hero from './sections/Hero.jsx';
 
 import Navbar from './sections/Navbar.jsx';
+import Projects from './sections/Projects.js';
 
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
+      <Projects />
     </main>
   );
 };
