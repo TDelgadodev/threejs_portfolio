@@ -83,7 +83,7 @@ const Projects = () => {
               rel="noreferrer"
               className="flex items-center gap-2 cursor-pointer text-white-600"
             >
-              <p className="">Check Live Site</p>
+              <p>Check Live Site</p>
               <img src="/assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
             </a>
           </div>

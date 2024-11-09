@@ -67,6 +67,7 @@ export const myProjects = [
         path: '/assets/icons/framer.png',
       },
     ],
+    href: 'https://live-docs-lime-pi.vercel.app/'
   },
   {
     title: 'Imaginify - AI Photo Manipulation App',
@@ -103,6 +104,7 @@ export const myProjects = [
         path: '/assets/icons/framer.png',
       },
     ],
+    href: 'https://imaginify-hub.vercel.app/'
   },
   {
     title: 'Budget Tracker - Financial Management App',
@@ -144,6 +146,7 @@ export const myProjects = [
         path: '/assets/icons/tailwindcss.png',
       },
     ],
+    href: 'https://budget-tracker-indol.vercel.app/'
   },
   {
     title: 'Refine Dashboard CRM - CRM and Analytics Dashboard',
