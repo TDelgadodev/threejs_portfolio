@@ -168,4 +168,46 @@ export const myProjects = [
       { id: 5, name: 'React', path: '/assets/icons/react.svg' },
     ],
   },
+  {
+    title: 'Apple-Inspired Landing Page - Interactive Product Showcase',
+    desc: 'A modern landing page inspired by Apple’s iPhone promotion page, featuring advanced animations and 3D graphics.',
+    subdesc:
+      'Built with technologies like Three.js, GSAP, and React Three Fiber, this landing page provides a visually engaging and dynamic experience. Perfect for showcasing products in an interactive environment, emulating the marketing experiences of leading brands.',
+    texture: '/textures/project/apple-landing-page.mp4', 
+    logo: '/assets/projects/apple.svg', 
+    logoStyle: {
+      backgroundColor: '#2E2E2E',
+      border: '0.2px solid #333333',
+      boxShadow: '0px 0px 60px 0px #A0A0A0',
+    },
+    spotlight: '/assets/spotlight-apple.png', 
+    tags: [
+      {
+        id: 1,
+        name: 'React',
+        path: '/assets/icons/react.svg',
+      },
+      {
+        id: 2,
+        name: 'Three.js',
+        path: '/assets/icons/Threejs.svg',
+      },
+      {
+        id: 3,
+        name: 'GSAP',
+        path: '/assets/icons/gsap.svg',
+      },
+      {
+        id: 4,
+        name: 'React Three Fiber',
+        path: '/assets/icons/r3f.svg',
+      },
+      {
+        id: 5,
+        name: 'TailwindCSS',
+        path: '/assets/icons/tailwindcss.png',
+      },
+    ],
+    href: 'https://iphone15promaxpage.netlify.app/', 
+  },
 ];
