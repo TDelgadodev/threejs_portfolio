@@ -26,6 +26,17 @@ const Footer = () => {
             className="w-1/2 h-1/2"
           />
         </a>
+        <a
+          className="social-icon"
+          href="https://www.linkedin.com/in/tdelgadodev/"
+          target="_blank"
+        >
+          <img
+            src="/assets/linkedin.svg"
+            alt="Linkedin"
+            className="w-1/2 h-1/2"
+          />
+        </a>
       </div>
 
       <p className="text-white-500">
