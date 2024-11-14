@@ -5,7 +5,7 @@ import Hero from './sections/Hero.jsx';
 
 import Navbar from './sections/Navbar.jsx';
 import Projects from './sections/Projects.jsx';
-
+import WorkExperience from './sections/Experience.jsx';
 
 const App = () => {
   return (
@@ -14,6 +14,7 @@ const App = () => {
       <Hero />
       <About />
       <Projects />
+      <WorkExperience />
       <Contact />
       <Footer />
     </main>
