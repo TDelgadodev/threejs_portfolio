@@ -228,7 +228,59 @@ export const myProjects = [
         path: "/assets/icons/r3f.svg",
       },
     ],
-    href: 'https://iphone15promaxpage.netlify.app/'
+    href: "https://iphone15promaxpage.netlify.app/",
+  },
+  {
+    title: "Low Cost - E-commerce Platform",
+    desc: "Low Cost is a full-stack e-commerce platform offering a vast catalog of products, from home appliances to tech gadgets, with seamless user experience and secure payment integration.",
+    subdesc:
+      "Developed with modern web technologies, including Node.js, MySQL, and React, Low Cost integrates Mercado Pago for payments, Cloudinary for image management, and robust authentication using JWT.",
+    texture: "/textures/project/low-cost.mp4",
+    logo: "/assets/projects/low-cost.png",
+    logoStyle: {
+      backgroundColor: "#1A202C",
+      border: "0.2px solid #2D3748",
+      boxShadow: "0px 0px 50px 0px #3182CE4D",
+    },
+    spotlight: "/assets/spotlight-low-cost.png",
+    tags: [
+      {
+        id: 1,
+        name: "Node.js",
+        path: "/assets/icons/nodejs.svg",
+      },
+      {
+        id: 2,
+        name: "Express",
+        path: "/assets/icons/express.svg",
+      },
+      {
+        id: 3,
+        name: "React",
+        path: "/assets/icons/react.svg",
+      },
+      {
+        id: 4,
+        name: "MySQL",
+        path: "/assets/icons/mysql.svg",
+      },
+      {
+        id: 5,
+        name: "JWT",
+        path: "/assets/icons/jwt.svg",
+      },
+      {
+        id: 6,
+        name: "Mercado Pago",
+        path: "/assets/icons/mercadopago.svg",
+      },
+      {
+        id: 7,
+        name: "Cloudinary",
+        path: "/assets/icons/cloudinary.svg",
+      },
+    ],
+    href: "https://lowcostarg.com.ar",
   },
 ];
 export const workExperiences = [
