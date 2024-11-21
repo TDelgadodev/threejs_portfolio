@@ -173,27 +173,6 @@ export const myProjects = [
     href: "https://budget-tracker-indol.vercel.app/",
   },
   {
-    title: "Refine Dashboard CRM - CRM and Analytics Dashboard",
-    desc: "A customer relationship management (CRM) dashboard built using Refine and Ant Design, offering analytics and company management tools.",
-    subdesc:
-      "This CRM is built with Refine and Ant Design, utilizing advanced data processing tools like GraphQL and DnD-Kit for interactive elements.",
-    texture: "/textures/project/refine-dashboard-crm.mp4",
-    logo: "/assets/icons/refine.svg",
-    logoStyle: {
-      backgroundColor: "#23303B",
-      border: "0.2px solid #2B3A4C",
-      boxShadow: "0px 0px 50px 0px #3366CC4D",
-    },
-    spotlight: "/assets/spotlight-crm.png",
-    tags: [
-      { id: 1, name: "Refine", path: "/assets/icons/refine.svg" },
-      { id: 2, name: "Ant Design", path: "/assets/icons/ant-design.svg" },
-      { id: 3, name: "GraphQL", path: "/assets/icons/graphql.svg" },
-      { id: 4, name: "DnD-Kit", path: "/assets/icons/dnd-kit.svg" },
-      { id: 5, name: "React", path: "/assets/icons/react.svg" },
-    ],
-  },
-  {
     title: "Apple-Inspired Landing Page - Interactive Product Showcase",
     desc: "A modern landing page inspired by Apple’s iPhone promotion page, featuring advanced animations and 3D graphics.",
     subdesc:
@@ -231,7 +210,7 @@ export const myProjects = [
     href: "https://iphone15promaxpage.netlify.app/",
   },
   {
-    title: "Low Cost - E-commerce Platform",
+    title: "Low Cost E-commerce Platform",
     desc: "Low Cost is a full-stack e-commerce platform offering a vast catalog of products, from home appliances to tech gadgets, with seamless user experience and secure payment integration.",
     subdesc:
       "Developed with modern web technologies, including Node.js, MySQL, and React, Low Cost integrates Mercado Pago for payments, Cloudinary for image management, and robust authentication using JWT.",
