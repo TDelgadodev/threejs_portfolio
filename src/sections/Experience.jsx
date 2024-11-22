@@ -8,6 +8,11 @@ import { workExperiences } from '../constants/index.js';
 
 const WorkExperience = () => {
   const [animationName, setAnimationName] = useState('idle');
+  const [expandedIndex, setExpandedIndex] = useState(null);
+
+  const handleToggle = (index) => {
+    setExpandedIndex(expandedIndex === index ? null : index); 
+  };
 
   return (
     <section className="c-space my-20" id="work">
@@ -50,7 +55,13 @@ const WorkExperience = () => {
                     <p className="text-sm mb-5">
                       {item.pos} -- <span>{item.duration}</span>
                     </p>
-                    <p className="group-hover:text-white transition-all ease-in-out duration-500">{item.title}</p>
+                    <p
+                      className="group-hover:text-white transition-all ease-in-out duration-500"
+                      onClick={() => handleToggle(index)} 
+                      style={{ cursor: 'pointer' }}
+                    >
+                      {expandedIndex === index ? item.title : `${item.title.substring(0, 150)}...`} 
+                    </p>
                   </div>
                 </div>
               ))}
